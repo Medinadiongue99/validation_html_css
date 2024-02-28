@@ -1,0 +1,509 @@
+body{
+	font-family: sans-serif;
+}
+header{
+	display: flex;
+	border: 0px solid gray;
+	justify-content: space-between;
+	padding: 8px 25px 0px 30px;
+	height: 60px;
+	 box-shadow: 0 5px  13px #999;
+}
+.head1, .coach div, .cour div{
+	display: flex;
+}
+.head1 img, .coach div img {
+	width: 55px;
+	height: 50px;
+	border-radius: 50%;
+}
+.portrait, .cour div div, .coach div div  {
+	display: flex;
+	flex-direction: column;
+	transform: translate(10px, -15px);
+}
+.coach div div h6, .cour div div h6{
+	transform: translateY(-43px);
+	color: grey;
+	font-size: 11px;
+}
+.cour div div p{
+	transform: translateY(-65px);
+	color: grey;
+	font-size: 14px;
+}
+.cour div div p span {
+	font-weight: bold;
+}
+
+hr{
+	border: 1px solid gray;
+	width: 765px;
+	margin-left: -15px;
+
+}
+header img {
+	width: 95px;
+	height: 55px;
+}
+.cour div img{
+	width: 70px;
+	height: 70px;
+	transform: translateY(10px);
+
+}
+.div_cour{
+	background-color: #069a77;
+	width: 110px;
+	height: 90px;
+	border-radius: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding-left: 35px;
+
+}
+.react_boos{
+	margin-top: -25px;
+}
+.react_boos .div_cour img{
+	width: 90px;
+	margin-top: -10px;
+	margin-left: -5px;
+	height: 90px;
+}
+
+.head1 h6{
+	transform: translateY(-48px);
+	color: gray;
+}
+.head1 i{
+	color:	 #f96b57;
+	transform: translate(12px, 20px);
+	font-size: 20px;
+}
+.sec1{
+	display: grid;
+	grid-template-columns: 350px 1fr;
+	
+}
+ aside,   .liste_coach, .video1{
+ 	display: flex;
+ 	height: 500px;
+ 	flex-direction: column;
+ 	border: 0px solid grey;
+ 	border-radius: 5px;
+ 	box-shadow:  0px 0px 5px 1px gray;
+ 	margin: 20px 0px 0px 100px;
+ 	padding: 20px 0px 7px 15px;
+
+ }
+
+ aside a {
+ 	color: black;
+ 	text-decoration: none;
+ 	font-size: 20px;
+ 	padding: 15px 0px 10px 10px ;
+ }
+  aside a:hover{
+  	width: 215px;
+  	margin-left: -15px;
+  	padding:15px 0px 10px 35px  ;
+  	border: none;
+  	border-end-end-radius: 140px;
+  	border-top-right-radius: 150px;
+  	background-color: #069a77;
+  	height: 24px;
+
+  }
+  aside a i {
+  	padding-right: 13px;
+  }
+  .contact {
+  	display: grid;
+  	grid-template-columns: 500px 300px;
+  }
+  .liste_coach, .video1{
+  	margin-left: 45px;
+  	width: 750px;
+  	height: auto;
+  }
+  .contact1{
+  	margin:40px 0px 70px 80px ;
+  }
+  .contact form {
+  	display: grid;
+  	grid-template-columns: 200px 200px;
+  	grid-template-rows: 70px;
+  	margin-top: -18px;
+  }
+  textarea{
+  width: 365px;
+  padding-top: 15px;
+  }
+  .contact2 div h6, .contact_h5{
+  transform: translateY(-20px);
+  	color: grey;
+  }
+  .contact2 div h1{
+  	font-size: 30px;
+  	line-height: 10px;
+  }
+  .contact2{
+  	margin-top: -8px;
+  	margin-left: -38px;
+  }
+  .contact form input,textarea{
+  	margin-right: 20px;
+  	border: none;
+  	height: auto;
+  	padding-left: 15px;
+  	border-radius: 5px;
+  	background-color: #dbf0f1;
+  	margin-top: 25px;
+  	color: black;
+  
+
+  }
+  .contact_icon{
+  	display: flex;
+  gap: 20px;
+  color: #069a77;
+  	font-size: 20px;
+  }
+  .contact_div{
+  	margin-top: -10px;
+  	color: grey;
+  }
+  .contact form input:nth-child(3){
+  		width: 365px;
+  		height: 47px;
+
+  	
+  }
+  .coach{
+  	display: grid;
+  	grid-template-columns: 185px 195px 195px 185px;
+  	grid-template-rows: 90px;
+  	margin-bottom: -50px;
+  }
+  .cour{
+  	display: grid;
+  	grid-template-columns: 400px 400px;
+  		grid-template-rows: 135px;
+  		height: 250px;
+  }
+  .video2{
+  	display: grid;
+  	grid-template-columns:255px 255px 255px ;
+  	margin-top: 20px;
+  	gap: 0px;
+  }
+  video{
+  	width: 220px;
+  	height: 140px;
+  	border-radius: 15px;
+  }
+  .video2 div div  button{
+  	height: 1.45em;
+  	width: 1.4em;
+  	font-size: 30px;
+  	cursor: pointer;
+  	color: white;
+  	background-color: rgba(0, 0, 0, 0.0);
+  	border-radius: 50%;
+  	border: 5px solid white;
+  	transform: translate(85px, -95px);
+  }
+  .video2 div div:nth-child(3){
+  	transform: translateY(-45px);
+  	width: 200px;
+  }
+  .video2 div div  p {
+  	color: grey;
+  	font-size: 14px;
+  } 
+  .div{
+  	width: 60px;
+  	text-align: center;
+  	height: 12px;
+  	padding-top: 2px;
+  	margin-top: 17px;
+  	z-index:3 ;
+  	font-size: 10px;
+  	position: absolute;
+  	background-color: red;
+  	color: white;
+  }
+.video1 i input {
+	border: none;
+	padding-left: 5px;
+}
+.video1 form input[type="submit"]{
+	border-radius: 20px;
+	background-color:#069a77;
+	color: white;
+	width: 100px;
+	height: 35px;
+	font-size: 13px;
+	margin-left: 5px;
+	border: none;
+	font-weight: bold;
+}
+.video1 form i {
+	width: 600px;
+	padding: 5px 0px 0px 15px;
+	height: 25px;
+	color: grey;
+	margin-bottom: 10px;
+	 border-radius: 20px;
+	  border: 1px solid black;
+}
+.pied{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	background-color: #069a77;
+		padding-left: 40px;
+		color: white;
+}
+.pied p {
+	font-size: small;
+	width: 260px;
+}
+.pied_div {
+	display: flex;
+	gap: 15px;
+	font-size: 17px;
+	margin: 20px 20px 50px 55px;
+	flex-direction: column;
+}
+.pied_div a {
+	text-decoration: none;
+	margin-left: 20px;
+	color: white;
+	font-size: 16px;
+}
+.pied_div  i {
+	color:#ff9800;
+	padding-right: 10px;
+	font-size: 20px;
+}
+.copy{
+	text-align: center;
+	color: white;
+	background-color:#50735c;
+	padding: 5px;
+	margin-top: -10px;
+}
+
+@media screen and (max-width: 600px){
+	.sec1{
+		grid-template-columns:400px;
+		margin-left: 14px;
+	}
+	header{
+		width: 334px;
+	}
+	aside{
+		flex-direction: row;
+		width: 	370px;
+		margin: 6px 0px 0px 0px;
+		height: auto;
+		padding: 3px 0px 7px 0px;
+	}
+	aside a{
+		font-size: 13px;
+		padding-left: 9px;
+	}
+	aside a i{
+		padding-right: 9px;
+	}
+	.liste_coach{
+		margin-left: 0px;
+		width: 355px;
+		padding: 6px 0px 7px 15px;
+
+	}
+	.coach{
+		grid-template-columns: 180px 175px;
+		grid-template-rows: 82px 80px 80px;
+	}
+
+	hr{
+		width: 368px;
+		margin-left: -15px;
+	}
+	.cour{
+		grid-template-columns: 173px 175px;
+		margin-left: -21px;
+	}
+	.video1{
+		margin-left:0px ;
+		width: 353px;
+	}
+	.contact{
+		grid-template-columns: 341px 103px;
+	}
+	.video1 form i {
+		width: 225px;
+	}
+	.video2{
+		grid-template-columns: 120px 121px 108px;
+
+		margin: -32px 0px 0px -10px;
+	}
+	video{
+		width: 122px;
+		height: 129px;
+	}
+	.coach h5{
+		font-size: 11px;
+	}
+	.video2 div div:nth-child(3){
+		transform: translatey(-59px);
+	
+		
+	}
+	.cour div div h5{
+		font-size: 11;
+	}
+	.video2 div div p{
+		font-size: 11px;
+		width: 119px;
+	}
+	.video2 div div button{
+	font-size: 22px;
+	transform: translate(42px, -83px);
+	}
+	.contact form input {
+		width: 355px;
+		height: 47px;
+	}
+	.contact{
+		grid-template-columns:365px;
+		padding-left: 0px;
+	}
+	.contact form textarea{
+		height: auto;
+		width: 355px;
+	}
+	.contact form{
+		grid-template-columns: 200px;
+	}
+	.contact form input:nth-child(3){
+		width: 266px;
+		height: 47px;
+	}
+	header{
+		width: 403px;
+	}
+	.contact1{
+		margin: 8px 0px 0px 0px;
+	}
+	.pied h4{
+		font-size: 9px;
+	}
+	.pied p{
+		width: 127px;
+	}
+	.pied div a {
+		margin-left: -28px;
+		font-size: 13px;
+	}
+	.div3{
+		margin-left: -31px;
+	}
+	.copy{
+		width: 451px;
+	}
+
+	.pied{
+		grid-template-columns: 157px 203px 89px;
+		width: 456px;
+		padding-left: 5px;
+	}
+
+	.div{
+		width: 30px;
+		font-size: 5px;
+		height: 9px;
+		margin-top: 34px;
+	}
+	.video2 div div h4{
+		font-size: 10px;
+	}
+	.video1 hr{
+		width: 366px;
+		margin-left: -16px;
+	}
+	.coach div div {
+		transform: translate(10px, -5px);
+	}
+	coach div {
+		font-size: 12px;
+	}
+	.head1{
+		transform: translateY(8px);
+	}
+	.head1 h6{
+		transform: translateY(-34px);
+	}.div_cour{
+		width: 84px;
+		margin-right: 4px;
+	}
+	.react_boos .div_cour{
+		width: 76px;
+		margin-right: 4px;
+	}
+	#bostrap .div_cour{
+		width: 70px;
+		margin-right: 4px;
+	}
+	#bostrap .div_cour img{
+		transform: translate(-20px, 7px);
+	}
+	react_boos .div_cour img {
+		width: 88px;
+		margin-left: -13px;
+	}
+	.react{
+		width: 78px;
+		margin-top: 10px;
+		margin-left: -6px;
+	}
+	.cour div img{
+		width: 57px;
+		height: 66px;
+		transform: translate(-10px, 10px);
+	}
+	.bakelit{
+		display: grid;
+		grid-template-columns: 100px 254px;
+		transform: translate(169px, -22px);
+		margin: 0px 0px -41px -163px;
+	}
+	.contact_h5{
+		transform: translateY(-17px);
+		font-size: 24px;
+		color: black;
+	}
+	.contact2{
+		margin: 23px 0px 0px 0px;
+		display: grid;
+		grid-template-columns: 113px ;
+		justify-content: space-between;
+		height: 208px;
+	}
+	.contact_div{
+		margin-top: -42px;
+	}
+	.contact_icon{
+		transform: translate(221px, -68px);
+	}
+	.contact form input:nth-child(3){
+		width: 355px;
+		margin: 17px 0px -24px 0px;
+
+	}
+
+	}
+}
