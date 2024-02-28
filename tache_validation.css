@@ -35,12 +35,10 @@ header{
 .cour div div p span {
 	font-weight: bold;
 }
-
 hr{
 	border: 1px solid gray;
 	width: 765px;
 	margin-left: -15px;
-
 }
 header img {
 	width: 95px;
@@ -50,7 +48,6 @@ header img {
 	width: 70px;
 	height: 70px;
 	transform: translateY(10px);
-
 }
 .div_cour{
 	background-color: #069a77;
@@ -60,7 +57,6 @@ header img {
 	margin-right: 10px;
 	margin-top: 10px;
 	padding-left: 35px;
-
 }
 .react_boos{
 	margin-top: -25px;
@@ -71,7 +67,6 @@ header img {
 	margin-left: -5px;
 	height: 90px;
 }
-
 .head1 h6{
 	transform: translateY(-48px);
 	color: gray;
@@ -83,8 +78,7 @@ header img {
 }
 .sec1{
 	display: grid;
-	grid-template-columns: 350px 1fr;
-	
+	grid-template-columns: 350px 1fr;	
 }
  aside,   .liste_coach, .video1{
  	display: flex;
@@ -95,9 +89,7 @@ header img {
  	box-shadow:  0px 0px 5px 1px gray;
  	margin: 20px 0px 0px 100px;
  	padding: 20px 0px 7px 15px;
-
  }
-
  aside a {
  	color: black;
  	text-decoration: none;
@@ -113,7 +105,6 @@ header img {
   	border-top-right-radius: 150px;
   	background-color: #069a77;
   	height: 24px;
-
   }
   aside a i {
   	padding-right: 13px;
@@ -161,8 +152,6 @@ header img {
   	background-color: #dbf0f1;
   	margin-top: 25px;
   	color: black;
-  
-
   }
   .contact_icon{
   	display: flex;
@@ -177,8 +166,6 @@ header img {
   .contact form input:nth-child(3){
   		width: 365px;
   		height: 47px;
-
-  	
   }
   .coach{
   	display: grid;
@@ -298,36 +285,50 @@ header img {
 @media screen and (max-width: 600px){
 	.sec1{
 		grid-template-columns:400px;
-		margin-left: 14px;
-	}
+		}
 	header{
-		width: 334px;
+		width: 335px;
 	}
 	aside{
 		flex-direction: row;
-		width: 	370px;
+		width: 	455px;
 		margin: 6px 0px 0px 0px;
 		height: auto;
 		padding: 3px 0px 7px 0px;
 	}
 	aside a{
 		font-size: 13px;
-		padding-left: 9px;
+		padding-left: 20px;
 	}
 	aside a i{
 		padding-right: 9px;
 	}
+	aside a:hover{
+		width: auto;
+  	margin-left: 0px;
+  	padding:15px 0px 10px 10px  ;
+  	border: none;
+  	border-end-end-radius: 0px ;
+  	border-top-right-radius: 0px;
+  	background-color: inherit;
+  	height: 24px;
+
+  	/*color: black;
+ 	text-decoration: none;
+ 	font-size: 20px;
+ 	padding: 15px 0px 10px 10px ;*/
+		
+	}
 	.liste_coach{
-		margin-left: 0px;
+		margin-left: 20px;
 		width: 355px;
-		padding: 6px 0px 7px 15px;
+		padding: 6px 0px 7px 20px;
 
 	}
 	.coach{
 		grid-template-columns: 180px 175px;
 		grid-template-rows: 82px 80px 80px;
 	}
-
 	hr{
 		width: 368px;
 		margin-left: -15px;
@@ -337,8 +338,8 @@ header img {
 		margin-left: -21px;
 	}
 	.video1{
-		margin-left:0px ;
-		width: 353px;
+		margin-left: 20px;
+		width: 359px;
 	}
 	.contact{
 		grid-template-columns: 341px 103px;
@@ -360,8 +361,6 @@ header img {
 	}
 	.video2 div div:nth-child(3){
 		transform: translatey(-59px);
-	
-		
 	}
 	.cour div div h5{
 		font-size: 11;
@@ -397,7 +396,7 @@ header img {
 		width: 403px;
 	}
 	.contact1{
-		margin: 8px 0px 0px 0px;
+		margin: 8px 0px 0px 21px;
 	}
 	.pied h4{
 		font-size: 9px;
@@ -415,7 +414,6 @@ header img {
 	.copy{
 		width: 451px;
 	}
-
 	.pied{
 		grid-template-columns: 157px 203px 89px;
 		width: 456px;
@@ -502,7 +500,6 @@ header img {
 	.contact form input:nth-child(3){
 		width: 355px;
 		margin: 17px 0px -24px 0px;
-
 	}
 
 	}
